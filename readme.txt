@@ -13,3 +13,7 @@ Uninstallation
   - timer and service from /etc/systemd/system
   - test.sh from /usr/local/bin
  - systemctl daemon-reload
+
+Useful Commands
+ - systemctl list-timers
+ - systemd-analyze calendar --iterations=5 '*-*-* *:0/5'
