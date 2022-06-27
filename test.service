@@ -1,0 +1,6 @@
+[Unit]
+Description=Test unit for test timer
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/test.sh
